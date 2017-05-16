@@ -5,3 +5,5 @@ mysqldb:
 jahia:
   type: jahia:7.2-rc
   disk: 2048
+  relationships:
+      database: 'mysqldb:mysql'
