@@ -9,6 +9,7 @@ type: 'java:8'
 
 relationships:
     database: 'mysqldb:mysql'
+    jahia: 'jahia:http'
 
 web:
     upstream:
