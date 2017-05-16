@@ -1,6 +1,6 @@
 "https://{default}/":
   type: upstream
-  upstream: "app:http"
+  upstream: "jahia:http"
 "https://www.{default}/":
   type: redirect
   to: "https://{default}/"
