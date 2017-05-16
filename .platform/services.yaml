@@ -2,6 +2,6 @@ mysql:
   type: mysql:10.0
   disk: 2048
 
-jahia:
-  type: jahia:7.2
-  disk: 2048
+#jahia:
+#  type: jahia:7.2
+#  disk: 2048
