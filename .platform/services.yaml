@@ -1,9 +1,9 @@
-mysqldb:
-  type: mysql:10.0
-  disk: 2048
-
 jahia:
-  type: jahia:7.2-rc
-  disk: 2048
-  relationships:
-      database: 'mysqldb:mysql'
+    type: "jahia:7.2-rc"
+    disk: 2048
+    relationships:
+        database: mysqldb:mysql
+
+mysqldb:
+    type: "mysql:10.0"
+    disk: 2048
