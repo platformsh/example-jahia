@@ -2,11 +2,11 @@ name: 'app'
 
 type: 'java:8'
 
-hooks:
-    build: |
-        set -e
-        cd jahia-module
-        mvn clean install
+#hooks:
+#    build: |
+#        set -e
+#        cd jahia-module
+#        mvn clean install
 
 relationships:
     database: 'mysqldb:mysql'
