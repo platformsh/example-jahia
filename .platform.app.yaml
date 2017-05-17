@@ -1,12 +1,24 @@
 name: 'app'
-type: 'php:7.1'
 
-build:
-    flavor: none
+type: 'java:8'
+
+#hooks:
+#    build: |
+#        # Generate a unified Jar file of the application.
+#        mvn package
+
+relationships:
+    database: 'mysqldb:mysql'
+    jahia: 'jahia:http'
 
 web:
+    upstream:
+        socket_family: tcp
+        protocol: http
+    commands:
+        start: "sleep 60"
     locations:
-        '/':
-            root: 'web'
+        /:
+            passthru: true
 
 disk: 512
