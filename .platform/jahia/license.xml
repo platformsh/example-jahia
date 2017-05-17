@@ -1,0 +1,80 @@
+<jahia-licenses>
+  <license-package format="1.1" product="Digital Experience Manager" release="7.2.0" customTermsAndConditions="false" edition="dx">
+    <license component="org.jahia.core" licensee="Digital Experience Manager Evaluation Customer" signature="MCwCFDy8AcRNP6fP0ktlgD2I/9sm2s41AhQnrxr9DxnjjI2Laix65gci6pVVWw==" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.CommonDaysLeftValidator" name="maxUsageDays" value="30"/>
+      <limit class="org.jahia.security.license.ReleaseNumberValidator" name="release" value="7.2 to 7.3"/>
+    </license>
+    <license component="org.jahia.remotepublish" licensee="Digital Experience Manager Evaluation Customer" signature="MCwCFGXg4CAPPbfa7LL3DrhYN+d5E/FqAhQ1f/MNeI2sZ+JJeksr5VJzthAvrQ==" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.linkchecker" licensee="Digital Experience Manager Evaluation Customer" signature="MCwCFEPBqBM2QGbRNJnHIXrh+b+lMbG4AhQCzRu9nnQQ2VmUSkYjSZhu2R7JpA==" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.authentication.ntlm" licensee="Digital Experience Manager Evaluation Customer" signature="MC0CFH8U3wEJYwGwbcQcyRc7FZ0xq1uMAhUAk4y8UbNW13yfmJYAvTZj+a7EEWg=" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.authentication.jaas" licensee="Digital Experience Manager Evaluation Customer" signature="MCwCFFJ7WngvLnY7Atyt/XwBYzw+KSUrAhQiSwfhyR2Rpo8ZHiZWUjhB8C95Qw==" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.authentication.spnego" licensee="Digital Experience Manager Evaluation Customer" signature="MCwCFBBC6fppNbbkqEXRwMBT3cTuPMkZAhRDgxTJwW592Rs+1bNM4/HZ8qKkMg==" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.authentication.cas" licensee="Digital Experience Manager Evaluation Customer" signature="MC0CFQCAL0ON9y06URiHqm2t+r8EPLoXAwIUd+lOA1FouT09r/+SviDLx4rDWXs=" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.manageWorkflow" licensee="Digital Experience Manager Evaluation Customer" signature="MC0CFQCPw78p9dTHv+8YUjVUXKZrlEKqvAIUH8FfJJCuKWkkd8T6DN0oMuJSg1o=" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.advancedContentVisibility" licensee="Digital Experience Manager Evaluation Customer" signature="MCwCFC9ymZ87FvTEmFMTyadsGHbY32fPAhRNNBTCaKiUpD0cMB7u9nbT8GzWIA==" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.privateAppStore" licensee="Digital Experience Manager Evaluation Customer" signature="MCwCFGleiCXpp450zYux3RXUaGwyyhqdAhQbzoVEu11HoNo7o/USACKsRHJiGw==" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.wise" licensee="Digital Experience Manager Evaluation Customer" signature="MCwCFGVtMSUXnqnjeYKKop3L7IpnhFvFAhRmkKdiJ2PkQN+TYET4Pn9wnsCtjg==" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.portal" licensee="Digital Experience Manager Evaluation Customer" signature="MCwCFC1+D9kiaExrKbDqQzZtKpc0OHrGAhRUgj9cQK+wJTC3kVRnvxZt3ifBRg==" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.cmis" licensee="Digital Experience Manager Evaluation Customer" signature="MCwCFDz/MGd2ywP1DRxpQAXbWTXtgbzFAhQ3azaNOF9M+XkWd5nFAedtCiMPMQ==" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.esigate" licensee="Digital Experience Manager Evaluation Customer" signature="MCwCFBm/Z9ZYZwHxHlnRvI6LUhH59KTUAhRYpCXTkMH2X4vzz/66AvzOwzPRww==" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.eCommerce" licensee="Digital Experience Manager Evaluation Customer" signature="MC0CFQCAqV8BBc0R0RNbblojPAIClwG7ywIUKAh9ZEO3cQsAagPgQ7DwTaJMjgI=" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.formfactory" licensee="Digital Experience Manager Evaluation Customer" signature="MCwCFChxf+dNN9gVT83K3rG+O4PpuFPtAhQoN2cjUqVybkfU2W/WnCn6xPi/bA==" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.search-provider-elasticsearch" licensee="Digital Experience Manager Evaluation Customer" signature="MC0CFF/VsdVEjrwaAGYa64aRKvkYhhliAhUAgA5C9SWwXZP5bKVLeLVVXaKlmbk=" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.marketingFactory" licensee="Digital Experience Manager Evaluation Customer" signature="MC0CFCX8TQhYHFDU8T6yW+CvVE4xa77+AhUAjchqu2eleBQAg/R8o2GFNL837aE=" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.distributedSessions" licensee="Digital Experience Manager Evaluation Customer" signature="MC0CFGmAwAdoUoWIkDPlS9yHUmIPZyGuAhUAlNUZrMxaGND5GvDMw7HC5SfnzPY=" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.marketoConnector" licensee="Digital Experience Manager Evaluation Customer" signature="MCwCFC0IqtbsVreeKgaLunhJXk6l6GnpAhQrBonGraY15KU86HMaasvOMZMbrg==" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.landingPageFactory" licensee="Digital Experience Manager Evaluation Customer" signature="MCwCFEiSeQRSbdYD43IbsuzF7HiN8kAHAhQyEy434w803piDxtk9QMzp6ifmwQ==" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.atInternet" licensee="Digital Experience Manager Evaluation Customer" signature="MC0CFQCMwM97bSvWH+swB93a/SJnixik9QIUPCsQ0alQ+3BeTj2xgKv7hPYpFOQ=" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.mfGoogleAnalytics" licensee="Digital Experience Manager Evaluation Customer" signature="MCwCFFF9vwxQCNF4j3RlZpStYb3oQ5s5AhRV8x5t1919MktrYYFCqjObpA1SWw==" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.oauthLinkedIn" licensee="Digital Experience Manager Evaluation Customer" signature="MCwCFE1YCqxALSVtg9oDPiEuS/PlR1e9AhRciuAl1hW5AH7swXso5viW1DqWsQ==" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+    <license component="org.jahia.oauthFacebook" licensee="Digital Experience Manager Evaluation Customer" signature="MCwCFDwXodH44pw2bBQD+C77DuvedfD3AhRfweiPpxstJxj/KRbJfv4rKnXYHQ==" certAlias="jahiaCert">
+      <limit class="org.jahia.security.license.BooleanValidator" name="enabled" value="true"/>
+    </license>
+  </license-package>
+</jahia-licenses>
