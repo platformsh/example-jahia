@@ -2,10 +2,11 @@ name: 'app'
 
 type: 'java:8'
 
-#hooks:
-#    build: |
-#        # Generate a unified Jar file of the application.
-#        mvn package
+hooks:
+    build: |
+        set -e
+        cd jahia-module
+        mvn clean install
 
 relationships:
     database: 'mysqldb:mysql'
