@@ -1,0 +1,4 @@
+{
+    "install": ["jahia-module/target/audit-trail-1.0-SNAPSHOT.jar"],
+    "uninstall": []
+}
