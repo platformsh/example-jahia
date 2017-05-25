@@ -10,11 +10,12 @@ DX_PASSWORD = 'root'
 DX_RELATIONSHIP = 'jahia'
 
 def send_install_request(filename):
+    url = dx_rest_url()
     with open(filename, 'rb') as jar_handle:
         files = {"bundle": jar_handle}
         data = {'start': 'true'}
-        url = dx_rest_url()
-        response = requests.post(url, files=files, data=data, auth=HTTPBasicAuth(DX_USERNAME, DX_PASSWORD))
+        #response = requests.post(url, files=files, data=data, auth=HTTPBasicAuth(DX_USERNAME, DX_PASSWORD))
+        raise Exception("Test breaking")
         response.raise_for_status()
         print "Plugin {} installed and started successfully.".format(filename)
 
