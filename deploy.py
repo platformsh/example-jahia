@@ -9,21 +9,19 @@ DX_USERNAME = 'root'
 DX_PASSWORD = 'root'
 DX_RELATIONSHIP = 'jahia'
 
-class Platformsh:
-    @property
-    def dx_username(self):
-        return os.getenv('DX_DEPLOY_USERNAME')
+def dx_username():
+    return os.getenv('DX_DEPLOY_USERNAME')
 
-    @property
-    def dx_password(self):
-        return os.getenv('DX_DEPLOY_PASSWORD')
+def dx_password():
+    return os.getenv('DX_DEPLOY_PASSWORD')
 
 def send_install_request(filename):
     url = dx_rest_url()
+    auth_info = HTTPBasicAuth(dx_username(), dx_password())
+    data = {'start': 'true'}
     with open(filename, 'rb') as jar_handle:
         files = {"bundle": jar_handle}
-        data = {'start': 'true'}
-        response = requests.post(url, files=files, data=data, auth=HTTPBasicAuth(Platformsh.dx_username, Platformsh.dx_password))
+        response = requests.post(url, files=files, data=data, auth=auth_info)
         response.raise_for_status()
         print "Plugin {} installed and started successfully.".format(filename)
 
