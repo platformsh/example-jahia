@@ -34,9 +34,6 @@ def install_plugins(commands):
 
 def uninstall_plugins(commands):
     pass
-#    if 'install' in commands.keys():
-#        for filename in commands['uninstall']:
-#            send_install_request(filename)
 
 def dx_rest_url():
     platform_relationships = os.getenv('PLATFORM_RELATIONSHIPS')
