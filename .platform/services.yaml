@@ -1,8 +1,8 @@
 jahia:
     type: "jahia:7.2-rc"
     disk: 2048
-#    configuration:
-#        config: !archive jahia
+    configuration:
+        config: !archive jahia
     relationships:
         database: mysqldb:mysql
 
