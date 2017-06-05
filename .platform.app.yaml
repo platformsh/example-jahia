@@ -7,6 +7,9 @@ hooks:
         set -e
         cd jahia-module
         mvn clean install
+    deploy: |
+        set -e
+        python deploy.py
 
 relationships:
     database: 'mysqldb:mysql'
