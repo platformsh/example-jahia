@@ -10,7 +10,9 @@ To start a new project based on this template, follow these 3 simple steps:
 
 2. Create a new project through the Platform.sh user interface and select "Import an existing project" when prompted.
 
-3. Run the provided Git commands to add a Platform.sh remote and push the code to the Platform.sh repository.
+3. In the Platform.sh UI or CLI, set a `DX_DEPLOY_USERNAME` and `DX_DEPLOY_PASSWORD` variable.  These values will be used for the API call to deploy newly built plugins (see below).  It is usually the administrator user.  It may be set as either an environment-level or project-level variable, but must be available at runtime.
+
+4. Run the provided Git commands to add a Platform.sh remote and push the code to the Platform.sh repository.
 
 That's it!  You now have a working "hello world" level project you can build on.
 
