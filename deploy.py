@@ -5,8 +5,6 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 # Edit these as needed.
-DX_USERNAME = 'root'
-DX_PASSWORD = 'root'
 DX_RELATIONSHIP = 'jahia'
 
 def dx_username():
