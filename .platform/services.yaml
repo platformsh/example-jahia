@@ -7,5 +7,8 @@ jahia:
         database: mysqldb:mysql
 
 mysqldb:
-    type: "mysql:10.0"
+    type: "mysql:10.2-rc"
     disk: 2048
+    configuration:
+        properties:
+            max_allowed_packet: 100
